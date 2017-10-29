@@ -1,0 +1,320 @@
+*{
+	font-family: 'Montserrat', sans-serif; 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	/*'text-decoration' le quita el subrayado al link*/
+	color: white;
+}
+
+/* ------MENÚ NAVEGACIÓN------ */
+
+/* Logo Lyft */
+ #logo_white{
+	width: 62px;	
+	/*'width' determina el tamaño del logo*/
+	height: auto;
+	float: left;
+	margin-left: 80px;
+	margin-top: -8px;
+}
+
+/*Menú Drive, Explore, Help, Log In*/
+.menu-options{
+	font-size: 18px;
+	margin-left: 730px;
+	margin-top: 50px;
+}
+
+.menu-options li{
+	width: 80px;
+	/*'width' separa horizontalmente los <a>*/
+	display: inline-block;
+	/*'inline-block' transforma la lista vert. en horizontal*/
+}
+
+/*botón 'log in'*/ 
+.logbutton{
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 10px;
+
+}
+
+/* ------SECTION 1: INTRO------ */
+
+/*imagen fondo*/
+#I{
+	background-image: url(../assets/images/hero.gif);
+	background-size: 100%;
+	height: 700px;
+	background-position: center;
+	margin-top: -152px;
+}
+
+/*caja blanca*/
+#caja-blanca{
+	background-color: white;
+	width: 532px;
+	height: 419px;
+	position: absolute;  
+	left: 748px;
+	top: 115px;
+}
+
+/*texto caja blanca*/
+.part1{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 810px;
+	z-index: 500;	
+}
+
+/*'Turn miles. Into money'*/
+.part1 h1{
+	color: #281371;
+	font-size: 250%;
+	margin-top: 30px;
+}
+
+/*'Sign up to drive with Lyft'*/
+.part1 h4{
+	color: #281371;
+	padding-top: 8px;
+}
+
+/*formulario*/
+input{
+	width: 420px;
+	/*largo línea*/
+	color: #352384;
+	/*color texto*/
+	font-size: 18px;
+	margin-top: 24px;
+	border: none;
+	/*le quita el borde a la caja de texto*/
+	border-bottom: 1px solid #281371;
+	/*estilo línea*/
+}
+
+input[value="Phone number"]{
+	color: #728099;
+}
+
+/*botón rosado*/
+#button{
+	width: 185px;
+	height: 55px;
+	background-color: #F400B1;
+	border-radius: 10px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 18px;
+}
+
+#button a{
+	color: white;
+}
+
+/*link 'sign up to ride'*/
+#sign-up{
+	margin-top: -35px;
+}
+
+#sign-up a{
+	color: #A2AABB;
+	font-size: 100%;
+	margin-left: 210px;
+	text-decoration: underline;
+}
+
+/*texto final caja*/
+.part1 h5{
+	font-size: 62%;
+	color: #A2AABB;
+}
+
+/*1era linea final*/
+#text1-3{
+	margin-top: 45px;
+	padding-bottom: 10px;
+}
+
+/*'Check the status, learn more'*/
+h5 a{
+	color: #F400B1;
+}
+
+
+/* ------SECTION 2: CELL PHONE------ */
+
+#II{
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 630px;
+	margin-top: -83px;
+	}
+
+.part2{
+	color: white;
+	display: inline-block;
+	width: 34%;
+	margin-left: 155px;
+	word-spacing: 2px;
+}
+
+.part2 h1{
+	font-size: 175%;
+	padding-bottom: 18px;
+}
+
+.part2 p{
+	padding-bottom: 70px;
+	/*separación vertical entre párrafos*/
+	font-size: 95%;
+}
+#text2-1{
+	margin-top: 85px;
+}
+
+.cell-phone{
+	margin-top: -550px;
+}
+
+.cell-phone img{
+	width: 38%;
+	height: auto;
+	margin-left: 652px;
+}
+
+/* ------SECTION 3: AMPLIFY YOUR RIDE------ */
+.part3{
+	display: inline-block;
+	width: 27%;
+	margin-top: 30px;
+	margin-left: 55px;
+	float: left;
+}
+
+#video1{
+	display: inline-block;
+	float: right;
+}
+
+/* -------SECTION 4: JUNE----- */
+.part4{
+	display: inline-block;
+	width: 25%;
+	margin-top: 30px;
+	margin-right: 55px;
+	float: right;
+}
+
+#video2{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+}
+
+/* ------SECTION 5: A GOOD THING GOING------ */
+#V{
+	clear: both;
+    overflow: auto;
+}
+
+.part5{
+	display: inline-block;
+	width: 27%;
+	margin-top: 30px;
+	margin-left: 55px; 
+}
+
+#video3{
+	display: inline-block;
+	float: right;
+}
+
+/*textos section 3, 4, 5*/
+.subtitle{
+	font-size: 80%;
+}
+
+.title{
+	font-size: 110%;
+}
+
+.paragraph{
+	padding-top: 30px;
+	font-size: 95%;
+}
+
+/* ------SECTION 6: FOOTER------ */
+
+#VI{
+	background-color: #333447;
+	width: 100%;
+	height: 515px;
+	margin-top: -5px;
+}
+
+.foot{
+	color: white;
+	font-size: 93%;
+	display: inline-block;
+	margin-top: 73px;
+}
+
+.foot a:hover{
+	color: #FF00BF;
+}
+
+.foot li{
+	padding-bottom: 30px;
+}
+
+.log-in-2, .partner, .learn, .stores{
+	list-style: none;
+	margin-top: -20px;
+	margin-left: 125px;
+	padding-bottom: 20px;
+	margin-right: 25px;
+}
+	
+.stores img{
+	width: 125px;
+	margin-left: 35px;
+}
+
+hr{
+	width: 800px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 240px;
+}
+
+/*logos redes sociales*/
+#rrss{
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 100%;
+}
+
+/*copyright*/
+.copyright{
+	text-align: center;
+}
+
+.copy li{
+	display: inline-block;
+	color: white;
+	font-size: 90%;
+	margin-top: 50px;
+}
+
